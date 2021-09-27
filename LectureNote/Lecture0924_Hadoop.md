@@ -48,10 +48,10 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home"
     </property>
 
     <!-- 이 아래는 선택적으로 추가 -->
-    <property>
+    <!-- <property>
         <name>dfs.namenode.http-address.[NameServiceID].[NameNodeID]</name>
         <value>localhost:50070</value>
-    </property>
+    </property> -->
     <property>
         <name>dfs.datanode.http.address</name>
         <value>localhost:50075</value>
@@ -147,8 +147,8 @@ jps
 
 ### 3-5. WebUI 확인
 ```
-Cluster status : http://localhost:8088
-HDFS status : http://localhost:9870
+Resource Manager(Cluster status) : http://localhost:8088
+NameNode Web UI(HDFS status) : http://localhost:9870
 Secondary NameNode status : http://localhost:9868
 DataNode status : http://localhost:50075
 Node Manager : http://localhost:8042
