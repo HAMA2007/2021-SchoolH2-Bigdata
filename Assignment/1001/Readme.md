@@ -115,3 +115,6 @@ hadoop fs -get /user/hama2007/output ./
 	File Output Format Counters
 		Bytes Written=45379
 ```
+---
+### 참고자료
+[블로그](https://kamang-it.tistory.com/entry/Hadoop-03%EB%A7%B5%EB%A6%AC%EB%93%80%EC%8A%A4-%EC%98%88%EC%A0%9CWordCount) 
