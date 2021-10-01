@@ -30,7 +30,7 @@ jar cf wc.jar WordCount*.class # wc.jar파일로 합침
 WordCount 시작
 ```zsh
 jps # 6개 모두 동작중인지 확인
-hadoop jar wc.jar WordCount ./input.txt output
+hadoop jar wc.jar WordCount ./input.txt output # wc.jar파일이 있는 경로에서 수행(hadoop경로내에 옮기고 수행)
 ```
 Output file hdfs에서 local로 복사
 ```zsh
